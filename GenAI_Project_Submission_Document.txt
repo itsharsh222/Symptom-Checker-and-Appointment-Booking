@@ -1,0 +1,170 @@
+# Symptom Checker & Appointment Scheduler - GenAI Project Submission
+
+## Student Information
+**Project Title:** Symptom Checker & Appointment Scheduler
+**Technology Stack:** React (Frontend), Flask (Backend), MySQL (Database), Google Gemini API
+**GenAI Tool Used:** Amazon Q Developer
+**Development Approach:** Full-stack web application with AI integration
+
+## Project Overview
+I developed a comprehensive healthcare web application that allows patients to input symptoms, receive AI-powered medical suggestions using Google's Gemini API, and book appointments with healthcare providers. The application demonstrates practical implementation of GenAI in healthcare technology.
+
+## Prompts Used During Development
+
+### 1. Initial Project Creation Prompt
+```
+"I need to create a Symptom Checker & Appointment Scheduler project. Patients should be able to input symptoms, get AI-based suggestions, and book appointments. I want to use React for frontend, Flask for backend, and MySQL for database. I have all prerequisites installed. Please create the complete project structure and guide me through the implementation."
+```
+
+### 2. Backend Development Prompts
+```
+"Create a Flask backend application with the following requirements:
+- SQLAlchemy models for Patient and Appointment entities
+- Integration with Google Gemini API for symptom analysis
+- RESTful API endpoints for symptom analysis, patient management, and appointment booking
+- Proper error handling and CORS configuration
+- Environment variable setup for API keys and database credentials"
+```
+
+### 3. Frontend Development Prompts
+```
+"Develop a React TypeScript frontend with these specifications:
+- Component-based architecture with routing
+- SymptomChecker component for symptom input and AI analysis display
+- AppointmentBooking component for patient registration and scheduling
+- Modern, responsive CSS styling
+- Form validation and error handling
+- Integration with backend APIs using Axios"
+```
+
+### 4. Database Design Prompts
+```
+"Design a MySQL database schema for the healthcare application:
+- Patient table with contact information and unique constraints
+- Appointment table with foreign key relationships
+- Proper indexing for performance optimization
+- Sample data for testing
+- Database setup scripts for easy deployment"
+```
+
+### 5. AI Integration Prompts
+```
+"Implement Google Gemini API integration for medical symptom analysis:
+- Configure API authentication and error handling
+- Create structured prompts for symptom analysis
+- Format AI responses for user-friendly display
+- Include medical disclaimers and safety warnings
+- Handle API rate limits and failures gracefully"
+```
+
+### 6. Troubleshooting Prompts
+```
+"Help me resolve the following issues:
+- MySQL connection authentication problems
+- React application startup errors due to folder naming
+- Gemini API key configuration and testing
+- Node.js dependency conflicts and path resolution
+- CORS issues between frontend and backend"
+```
+
+## Key Features Implemented
+
+### 1. AI-Powered Symptom Analysis
+- **Prompt Used:** "Create a medical AI assistant that analyzes patient symptoms and provides possible conditions, severity levels, recommended actions, and when to seek immediate care."
+- **Implementation:** Integrated Google Gemini API with structured prompts for comprehensive symptom analysis
+- **Result:** Patients receive detailed AI-generated medical insights with appropriate disclaimers
+
+### 2. Patient Management System
+- **Prompt Used:** "Develop a patient registration system with duplicate prevention, data validation, and secure storage."
+- **Implementation:** Created SQLAlchemy models with unique email constraints and form validation
+- **Result:** Efficient patient data management with error handling
+
+### 3. Appointment Scheduling
+- **Prompt Used:** "Build an appointment booking system with date/time selection, patient association, and status tracking."
+- **Implementation:** Developed booking forms with validation and database integration
+- **Result:** Complete appointment management functionality
+
+### 4. Responsive User Interface
+- **Prompt Used:** "Design a modern, mobile-friendly interface with intuitive navigation and professional healthcare styling."
+- **Implementation:** Created responsive CSS with clean design principles
+- **Result:** User-friendly interface accessible across all devices
+
+## Technical Implementation Details
+
+### Backend Architecture (Flask)
+- **Models:** Patient and Appointment entities with proper relationships
+- **API Endpoints:** RESTful services for all CRUD operations
+- **AI Integration:** Gemini API for symptom analysis
+- **Security:** Environment variables for sensitive data
+
+### Frontend Architecture (React + TypeScript)
+- **Components:** Modular design with reusable components
+- **Routing:** React Router for navigation
+- **State Management:** React hooks for form handling
+- **API Communication:** Axios for HTTP requests
+
+### Database Design (MySQL)
+- **Tables:** Normalized schema with foreign key constraints
+- **Indexing:** Optimized for query performance
+- **Data Integrity:** Unique constraints and validation rules
+
+## GenAI Learning Outcomes
+
+### 1. Prompt Engineering Skills
+- Learned to craft specific, detailed prompts for complex development tasks
+- Understood how to break down large projects into manageable AI-assisted components
+- Developed skills in iterative prompt refinement for better results
+
+### 2. AI-Assisted Development
+- Experienced full-stack development with AI guidance
+- Learned to integrate multiple technologies through AI assistance
+- Understood AI limitations and when human intervention is needed
+
+### 3. Problem-Solving with AI
+- Used AI for debugging and troubleshooting complex issues
+- Learned to interpret AI suggestions and adapt them to specific requirements
+- Developed skills in AI-human collaborative development
+
+## Project Challenges and Solutions
+
+### Challenge 1: Gemini API Integration
+- **Issue:** API authentication and response handling
+- **AI Solution:** Provided complete integration code with error handling
+- **Learning:** Understanding third-party API integration patterns
+
+### Challenge 2: Database Connection Issues
+- **Issue:** MySQL authentication and configuration problems
+- **AI Solution:** Guided through proper connection string setup and troubleshooting
+- **Learning:** Database configuration and environment management
+
+### Challenge 3: Frontend-Backend Communication
+- **Issue:** CORS errors and API endpoint integration
+- **AI Solution:** Provided CORS configuration and Axios setup
+- **Learning:** Full-stack application architecture principles
+
+## Conclusion
+This project demonstrates the power of GenAI in accelerating software development while maintaining code quality and best practices. Through strategic prompt engineering and AI collaboration, I successfully created a comprehensive healthcare application that integrates modern web technologies with artificial intelligence.
+
+The experience highlighted both the capabilities and limitations of AI-assisted development, teaching valuable lessons about human-AI collaboration in software engineering.
+
+## Files and Structure Created
+```
+symptom-checker/
+├── backend/
+│   ├── app.py (Flask application)
+│   ├── requirements.txt (Python dependencies)
+│   └── .env (Environment configuration)
+├── frontend/
+│   ├── src/
+│   │   ├── components/ (React components)
+│   │   ├── App.tsx (Main application)
+│   │   └── App.css (Styling)
+│   └── package.json (Node dependencies)
+├── database/
+│   └── setup.sql (Database schema)
+└── README.md (Project documentation)
+```
+
+**Total Development Time:** Approximately 2-3 hours with AI assistance
+**Lines of Code:** ~800 lines across all files
+**Technologies Mastered:** React, Flask, MySQL, Gemini API, TypeScript
