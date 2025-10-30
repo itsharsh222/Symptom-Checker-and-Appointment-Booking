@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Symptom Checker & Appointment Scheduler
 
 A full-stack web application that allows patients to input symptoms, get AI-based suggestions using Google's Gemini API, and book appointments.
@@ -87,3 +88,7 @@ A full-stack web application that allows patients to input symptoms, get AI-base
 - Replace `your_gemini_api_key_here` in `.env` with your actual Gemini API key
 - Update MySQL credentials in `.env` if different from defaults
 - The AI analysis is for informational purposes only and not a substitute for professional medical advice
+=======
+# Symptom-Checker-and-Appointment-Booking
+Using Flash 2.0 API to analyze symptoms and book appointment with doctors
+>>>>>>> e11da31bc0c769be440aff06ea1cfbfd01089688
