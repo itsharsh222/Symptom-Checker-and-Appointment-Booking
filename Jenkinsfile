@@ -2,11 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/your-username/your-repo.git'
-            }
-        }
+        
 
         stage('Build React Docker Image') {
             steps {
