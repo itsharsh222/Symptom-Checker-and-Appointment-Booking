@@ -132,6 +132,18 @@ dist
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
+# React
+node_modules/
+build/
+.env
+
+# Python / Flask
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
 !.yarn/versions
 
 # Vite logs files
